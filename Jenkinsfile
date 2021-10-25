@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'D:\\Deployment\\bin'
-   def tomcatBin = 'D:\\Deployment\\webapps'
+   def tomcatWeb = 'D:\\Deployment\\webapps'
+   def tomcatBin = 'D:\\Deployment\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/Dhairya76/JenkinsWar.git'
